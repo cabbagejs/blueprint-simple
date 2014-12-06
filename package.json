@@ -5,6 +5,10 @@
   "private": true,
   "author": "TODO: Your name here",
   "devDependencies": {
+    "broccoli": "^0.13.3",
+    "broccoli-concat": "0.0.12",
+    "broccoli-merge-trees": "^0.2.1",
+    "broccoli-static-compiler": "^0.2.1"
   },
   "scripts": {
     "start": "cabbage run",
