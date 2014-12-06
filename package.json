@@ -7,8 +7,13 @@
   "devDependencies": {
     "broccoli": "^0.13.3",
     "broccoli-concat": "0.0.12",
+    "broccoli-env": "0.0.1",
     "broccoli-merge-trees": "^0.2.1",
-    "broccoli-static-compiler": "^0.2.1"
+    "broccoli-static-compiler": "^0.2.1",
+    "coffee-script": "^1.8.0",
+    "config-extend": "0.0.7",
+    "resolve": "^1.0.0",
+    "underscore": "^1.7.0"
   },
   "scripts": {
     "start": "cabbage run",
