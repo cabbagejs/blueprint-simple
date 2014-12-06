@@ -1,4 +1,4 @@
-module.exports = function(cabbage) {
+module.exports = function() {
   //Override file patterns here
   return {
 
