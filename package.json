@@ -1,0 +1,13 @@
+{
+  "name": "TODO-name",
+  "description": "TODO: a front-end web application",
+  "version": "0.0.1",
+  "private": true,
+  "author": "TODO: Your name here",
+  "devDependencies": {
+  },
+  "scripts": {
+    "start": "cabbage run",
+    "test": "cabbage test-ci"
+  }
+}
