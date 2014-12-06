@@ -12,6 +12,6 @@
   },
   "scripts": {
     "start": "cabbage run",
-    "test": "cabbage test-ci"
+    "test": "cabbage spec-ci"
   }
 }
