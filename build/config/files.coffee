@@ -3,17 +3,18 @@
 #   is concerned with.
 module.exports = ->
   concat:
-    js: [
-      "<%= files.js.vendor %>"
-      "<%= files.js.app %>"
-    ]
+    js:
+      app: [
+        "<%= files.js.vendor %>"
+        "<%= files.js.app %>"
+      ]
 
-    spec: [
-      "<%= files.js.vendor %>"
-      "<%= files.js.app %>"
-      "<%= files.js.specHelpers %>"
-      "<%= files.js.spec %>"
-    ]
+      spec: [
+        "<%= files.js.vendor %>"
+        "<%= files.js.app %>"
+        "<%= files.js.specHelpers %>"
+        "<%= files.js.spec %>"
+      ]
 
   coffee:
     app: "app/js/**/*.coffee"
