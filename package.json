@@ -4,10 +4,6 @@
   "version": "0.0.1",
   "private": true,
   "author": "TODO: Your name here",
-  "devDependencies": {
-    "broccoli": "^0.13.3",
-    "cabbage": "*"
-  },
   "scripts": {
     "start": "cabbage run",
     "test": "cabbage spec-ci"
