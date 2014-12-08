@@ -1,11 +1,11 @@
 module.exports = function() {
-  //Override application configuration here.
+  //Override application configuration in production (e.g. cabbage build) here.
   return {
     // Add properties to pages.context to make them available in app/pages
     //
     // pages: {
     //   context: {
-    //     title: "Some title here"
+    //     cdn: "http://cloudflare.whatzit.com/"
     //   }
     // }
   };
