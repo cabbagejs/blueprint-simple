@@ -3,7 +3,7 @@ window.helloText = function() {
 };
 
 window.hello = function() {
-  html = JST['app/templates/hello.us']({text: helloText()});
+  html = JST['hello.us']({text: helloText()});
   document.body.innerHTML += html;
 };
 
